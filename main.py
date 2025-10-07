@@ -1,5 +1,11 @@
-def greet():
-    return "Hello from GitHub Actions!"
+def add(a, b):
+    return a + b
+
+
+def greet(name="World"):
+    return f"Hello, {name}!"
+
 
 if __name__ == "__main__":
     print(greet())
+    print("2 + 3 =", add(2, 3))
