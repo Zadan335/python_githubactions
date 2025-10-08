@@ -10,5 +10,5 @@ COPY . .
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Default command to run the app
+# Default command to run the app 
 CMD ["python", "main.py"]
